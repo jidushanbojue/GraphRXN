@@ -1,0 +1,711 @@
+Fold 0
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+Total size = 1,247 | train size = 997 | val size = 250 | test size = 312
+Fitting scaler
+Building model 0
+MoleculeModel(
+  (encoder): MPN(
+    (encoder): MPNEncoder(
+      (dropout_layer): Dropout(p=0.0, inplace=False)
+      (act_func): ReLU()
+      (W_i_atom): Linear(in_features=133, out_features=300, bias=False)
+      (W_i_bond): Linear(in_features=147, out_features=300, bias=False)
+      (W_h_atom): Linear(in_features=447, out_features=300, bias=False)
+      (W_h_0): Linear(in_features=300, out_features=300, bias=False)
+      (W_h_1): Linear(in_features=300, out_features=300, bias=False)
+      (W_o): Linear(in_features=600, out_features=300, bias=True)
+      (gru): BatchGRU(
+        (gru): GRU(300, 300, batch_first=True, bidirectional=True)
+      )
+      (lr): Linear(in_features=900, out_features=300, bias=False)
+    )
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=300, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 2,022,901
+Moving model to cuda
+Epoch 0
+Validation r2 = -0.038189
+Epoch 1
+Validation r2 = -0.096927
+Epoch 2
+Validation r2 = 0.023859
+Epoch 3
+Validation r2 = 0.046936
+Epoch 4
+Validation r2 = 0.083087
+Epoch 5
+Validation r2 = 0.172428
+Epoch 6
+Validation r2 = 0.268646
+Epoch 7
+Validation r2 = 0.306538
+Epoch 8
+Validation r2 = 0.391774
+Epoch 9
+Validation r2 = 0.476476
+Epoch 10
+Validation r2 = 0.455553
+Epoch 11
+Validation r2 = 0.564194
+Epoch 12
+Validation r2 = 0.555663
+Epoch 13
+Validation r2 = 0.402227
+Epoch 14
+Validation r2 = 0.561913
+Epoch 15
+Validation r2 = 0.642971
+Epoch 16
+Validation r2 = 0.560823
+Epoch 17
+Validation r2 = 0.649370
+Epoch 18
+Validation r2 = 0.636349
+Epoch 19
+Validation r2 = 0.635033
+Epoch 20
+Validation r2 = 0.643155
+Epoch 21
+Validation r2 = 0.625769
+Epoch 22
+Validation r2 = 0.649964
+Epoch 23
+Validation r2 = 0.645792
+Epoch 24
+Validation r2 = 0.633467
+Epoch 25
+Validation r2 = 0.627797
+Epoch 26
+Validation r2 = 0.631068
+Epoch 27
+Validation r2 = 0.604402
+Epoch 28
+Validation r2 = 0.637684
+Epoch 29
+Validation r2 = 0.655819
+Epoch 30
+Validation r2 = 0.619233
+Epoch 31
+Validation r2 = 0.639083
+Epoch 32
+Validation r2 = 0.584927
+Epoch 33
+Validation r2 = 0.630464
+Epoch 34
+Validation r2 = 0.650423
+Epoch 35
+Validation r2 = 0.651447
+Epoch 36
+Validation r2 = 0.649887
+Epoch 37
+Validation r2 = 0.656525
+Epoch 38
+Validation r2 = 0.665933
+Epoch 39
+Validation r2 = 0.669110
+Epoch 40
+Validation r2 = 0.656106
+Epoch 41
+Validation r2 = 0.636730
+Epoch 42
+Validation r2 = 0.685195
+Epoch 43
+Validation r2 = 0.682859
+Epoch 44
+Validation r2 = 0.653275
+Epoch 45
+Validation r2 = 0.658999
+Epoch 46
+Validation r2 = 0.683186
+Epoch 47
+Validation r2 = 0.694507
+Epoch 48
+Validation r2 = 0.686333
+Epoch 49
+Validation r2 = 0.708867
+Epoch 50
+Validation r2 = 0.714185
+Epoch 51
+Validation r2 = 0.713994
+Epoch 52
+Validation r2 = 0.705231
+Epoch 53
+Validation r2 = 0.715992
+Epoch 54
+Validation r2 = 0.721084
+Epoch 55
+Validation r2 = 0.721077
+Epoch 56
+Validation r2 = 0.724554
+Epoch 57
+Validation r2 = 0.725573
+Epoch 58
+Validation r2 = 0.730901
+Epoch 59
+Validation r2 = 0.722325
+Epoch 60
+Validation r2 = 0.733843
+Epoch 61
+Validation r2 = 0.707210
+Epoch 62
+Validation r2 = 0.711292
+Epoch 63
+Validation r2 = 0.722518
+Epoch 64
+Validation r2 = 0.717199
+Epoch 65
+Validation r2 = 0.719148
+Epoch 66
+Validation r2 = 0.726151
+Epoch 67
+Validation r2 = 0.698106
+Epoch 68
+Validation r2 = 0.722212
+Epoch 69
+Validation r2 = 0.732052
+Epoch 70
+Validation r2 = 0.731500
+Epoch 71
+Validation r2 = 0.729087
+Epoch 72
+Validation r2 = 0.720928
+Epoch 73
+Validation r2 = 0.727272
+Epoch 74
+Validation r2 = 0.717047
+Epoch 75
+Validation r2 = 0.724531
+Epoch 76
+Validation r2 = 0.719368
+Epoch 77
+Validation r2 = 0.699555
+Epoch 78
+Validation r2 = 0.712996
+Epoch 79
+Validation r2 = 0.720498
+Epoch 80
+Validation r2 = 0.721105
+Epoch 81
+Validation r2 = 0.717042
+Epoch 82
+Validation r2 = 0.704185
+Epoch 83
+Validation r2 = 0.707413
+Epoch 84
+Validation r2 = 0.722045
+Epoch 85
+Validation r2 = 0.696134
+Epoch 86
+Validation r2 = 0.707481
+Epoch 87
+Validation r2 = 0.722216
+Epoch 88
+Validation r2 = 0.717824
+Epoch 89
+Validation r2 = 0.710637
+Epoch 90
+Validation r2 = 0.714270
+Epoch 91
+Validation r2 = 0.719374
+Epoch 92
+Validation r2 = 0.718033
+Epoch 93
+Validation r2 = 0.713749
+Epoch 94
+Validation r2 = 0.701854
+Epoch 95
+Validation r2 = 0.706207
+Epoch 96
+Validation r2 = 0.705148
+Epoch 97
+Validation r2 = 0.685238
+Epoch 98
+Validation r2 = 0.708235
+Epoch 99
+Validation r2 = 0.710759
+Model 0 best validation r2 = 0.733843 on epoch 60
+Moving model to cuda
+Model 0 test mae = 0.390060
+Model 0 test mse = 0.277321
+Model 0 test r2 = 0.655336
+Building model 1
+MoleculeModel(
+  (encoder): MPN(
+    (encoder): MPNEncoder(
+      (dropout_layer): Dropout(p=0.0, inplace=False)
+      (act_func): ReLU()
+      (W_i_atom): Linear(in_features=133, out_features=300, bias=False)
+      (W_i_bond): Linear(in_features=147, out_features=300, bias=False)
+      (W_h_atom): Linear(in_features=447, out_features=300, bias=False)
+      (W_h_0): Linear(in_features=300, out_features=300, bias=False)
+      (W_h_1): Linear(in_features=300, out_features=300, bias=False)
+      (W_o): Linear(in_features=600, out_features=300, bias=True)
+      (gru): BatchGRU(
+        (gru): GRU(300, 300, batch_first=True, bidirectional=True)
+      )
+      (lr): Linear(in_features=900, out_features=300, bias=False)
+    )
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=300, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 2,022,901
+Moving model to cuda
+Epoch 0
+Validation r2 = -0.005440
+Epoch 1
+Validation r2 = -0.056913
+Epoch 2
+Validation r2 = -0.060563
+Epoch 3
+Validation r2 = 0.108401
+Epoch 4
+Validation r2 = 0.176996
+Epoch 5
+Validation r2 = 0.255263
+Epoch 6
+Validation r2 = 0.353755
+Epoch 7
+Validation r2 = 0.393016
+Epoch 8
+Validation r2 = 0.492349
+Epoch 9
+Validation r2 = 0.482095
+Epoch 10
+Validation r2 = 0.608476
+Epoch 11
+Validation r2 = 0.608011
+Epoch 12
+Validation r2 = 0.631363
+Epoch 13
+Validation r2 = 0.611587
+Epoch 14
+Validation r2 = 0.652023
+Epoch 15
+Validation r2 = 0.392480
+Epoch 16
+Validation r2 = 0.576546
+Epoch 17
+Validation r2 = 0.542886
+Epoch 18
+Validation r2 = 0.634176
+Epoch 19
+Validation r2 = 0.561447
+Epoch 20
+Validation r2 = 0.613414
+Epoch 21
+Validation r2 = 0.603486
+Epoch 22
+Validation r2 = 0.630141
+Epoch 23
+Validation r2 = 0.580792
+Epoch 24
+Validation r2 = 0.611173
+Epoch 25
+Validation r2 = 0.642832
+Epoch 26
+Validation r2 = 0.644794
+Epoch 27
+Validation r2 = 0.591709
+Epoch 28
+Validation r2 = 0.639009
+Epoch 29
+Validation r2 = 0.632681
+Epoch 30
+Validation r2 = 0.658815
+Epoch 31
+Validation r2 = 0.636502
+Epoch 32
+Validation r2 = 0.615219
+Epoch 33
+Validation r2 = 0.662795
+Epoch 34
+Validation r2 = 0.684379
+Epoch 35
+Validation r2 = 0.638783
+Epoch 36
+Validation r2 = 0.677263
+Epoch 37
+Validation r2 = 0.663520
+Epoch 38
+Validation r2 = 0.675935
+Epoch 39
+Validation r2 = 0.671421
+Epoch 40
+Validation r2 = 0.683242
+Epoch 41
+Validation r2 = 0.699083
+Epoch 42
+Validation r2 = 0.700895
+Epoch 43
+Validation r2 = 0.698346
+Epoch 44
+Validation r2 = 0.709484
+Epoch 45
+Validation r2 = 0.705715
+Epoch 46
+Validation r2 = 0.667768
+Epoch 47
+Validation r2 = 0.695427
+Epoch 48
+Validation r2 = 0.697444
+Epoch 49
+Validation r2 = 0.697318
+Epoch 50
+Validation r2 = 0.689175
+Epoch 51
+Validation r2 = 0.673696
+Epoch 52
+Validation r2 = 0.696637
+Epoch 53
+Validation r2 = 0.692369
+Epoch 54
+Validation r2 = 0.690135
+Epoch 55
+Validation r2 = 0.692584
+Epoch 56
+Validation r2 = 0.678780
+Epoch 57
+Validation r2 = 0.688003
+Epoch 58
+Validation r2 = 0.691313
+Epoch 59
+Validation r2 = 0.678718
+Epoch 60
+Validation r2 = 0.690798
+Epoch 61
+Validation r2 = 0.684831
+Epoch 62
+Validation r2 = 0.683153
+Epoch 63
+Validation r2 = 0.649322
+Epoch 64
+Validation r2 = 0.670371
+Epoch 65
+Validation r2 = 0.691131
+Epoch 66
+Validation r2 = 0.685708
+Epoch 67
+Validation r2 = 0.669852
+Epoch 68
+Validation r2 = 0.666263
+Epoch 69
+Validation r2 = 0.694269
+Epoch 70
+Validation r2 = 0.683256
+Epoch 71
+Validation r2 = 0.679637
+Epoch 72
+Validation r2 = 0.694371
+Epoch 73
+Validation r2 = 0.668552
+Epoch 74
+Validation r2 = 0.679671
+Epoch 75
+Validation r2 = 0.673621
+Epoch 76
+Validation r2 = 0.670902
+Epoch 77
+Validation r2 = 0.657859
+Epoch 78
+Validation r2 = 0.653887
+Epoch 79
+Validation r2 = 0.656243
+Epoch 80
+Validation r2 = 0.663765
+Epoch 81
+Validation r2 = 0.638197
+Epoch 82
+Validation r2 = 0.662175
+Epoch 83
+Validation r2 = 0.676890
+Epoch 84
+Validation r2 = 0.665773
+Epoch 85
+Validation r2 = 0.657682
+Epoch 86
+Validation r2 = 0.640714
+Epoch 87
+Validation r2 = 0.659284
+Epoch 88
+Validation r2 = 0.668621
+Epoch 89
+Validation r2 = 0.659830
+Epoch 90
+Validation r2 = 0.666285
+Epoch 91
+Validation r2 = 0.662154
+Epoch 92
+Validation r2 = 0.660407
+Epoch 93
+Validation r2 = 0.656427
+Epoch 94
+Validation r2 = 0.652786
+Epoch 95
+Validation r2 = 0.653944
+Epoch 96
+Validation r2 = 0.657992
+Epoch 97
+Validation r2 = 0.656344
+Epoch 98
+Validation r2 = 0.651365
+Epoch 99
+Validation r2 = 0.657691
+Model 1 best validation r2 = 0.709484 on epoch 44
+Moving model to cuda
+Model 1 test mae = 0.372157
+Model 1 test mse = 0.255157
+Model 1 test r2 = 0.682882
+Building model 2
+MoleculeModel(
+  (encoder): MPN(
+    (encoder): MPNEncoder(
+      (dropout_layer): Dropout(p=0.0, inplace=False)
+      (act_func): ReLU()
+      (W_i_atom): Linear(in_features=133, out_features=300, bias=False)
+      (W_i_bond): Linear(in_features=147, out_features=300, bias=False)
+      (W_h_atom): Linear(in_features=447, out_features=300, bias=False)
+      (W_h_0): Linear(in_features=300, out_features=300, bias=False)
+      (W_h_1): Linear(in_features=300, out_features=300, bias=False)
+      (W_o): Linear(in_features=600, out_features=300, bias=True)
+      (gru): BatchGRU(
+        (gru): GRU(300, 300, batch_first=True, bidirectional=True)
+      )
+      (lr): Linear(in_features=900, out_features=300, bias=False)
+    )
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=300, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 2,022,901
+Moving model to cuda
+Epoch 0
+Validation r2 = -0.103423
+Epoch 1
+Validation r2 = -0.000236
+Epoch 2
+Validation r2 = 0.021516
+Epoch 3
+Validation r2 = 0.081586
+Epoch 4
+Validation r2 = 0.079494
+Epoch 5
+Validation r2 = 0.162628
+Epoch 6
+Validation r2 = 0.125025
+Epoch 7
+Validation r2 = 0.215572
+Epoch 8
+Validation r2 = 0.335469
+Epoch 9
+Validation r2 = 0.397118
+Epoch 10
+Validation r2 = 0.475227
+Epoch 11
+Validation r2 = 0.459302
+Epoch 12
+Validation r2 = 0.570221
+Epoch 13
+Validation r2 = 0.554018
+Epoch 14
+Validation r2 = 0.544531
+Epoch 15
+Validation r2 = 0.569920
+Epoch 16
+Validation r2 = 0.584748
+Epoch 17
+Validation r2 = 0.659230
+Epoch 18
+Validation r2 = 0.680167
+Epoch 19
+Validation r2 = 0.632904
+Epoch 20
+Validation r2 = 0.530379
+Epoch 21
+Validation r2 = 0.614150
+Epoch 22
+Validation r2 = 0.653735
+Epoch 23
+Validation r2 = 0.621157
+Epoch 24
+Validation r2 = 0.609511
+Epoch 25
+Validation r2 = 0.602365
+Epoch 26
+Validation r2 = 0.578323
+Epoch 27
+Validation r2 = 0.629207
+Epoch 28
+Validation r2 = 0.645028
+Epoch 29
+Validation r2 = 0.623740
+Epoch 30
+Validation r2 = 0.649328
+Epoch 31
+Validation r2 = 0.629555
+Epoch 32
+Validation r2 = 0.624099
+Epoch 33
+Validation r2 = 0.666682
+Epoch 34
+Validation r2 = 0.677934
+Epoch 35
+Validation r2 = 0.645441
+Epoch 36
+Validation r2 = 0.694901
+Epoch 37
+Validation r2 = 0.680084
+Epoch 38
+Validation r2 = 0.681715
+Epoch 39
+Validation r2 = 0.692112
+Epoch 40
+Validation r2 = 0.713066
+Epoch 41
+Validation r2 = 0.701969
+Epoch 42
+Validation r2 = 0.731777
+Epoch 43
+Validation r2 = 0.692167
+Epoch 44
+Validation r2 = 0.709501
+Epoch 45
+Validation r2 = 0.699485
+Epoch 46
+Validation r2 = 0.712126
+Epoch 47
+Validation r2 = 0.678589
+Epoch 48
+Validation r2 = 0.677749
+Epoch 49
+Validation r2 = 0.718327
+Epoch 50
+Validation r2 = 0.734482
+Epoch 51
+Validation r2 = 0.723620
+Epoch 52
+Validation r2 = 0.723431
+Epoch 53
+Validation r2 = 0.726000
+Epoch 54
+Validation r2 = 0.704999
+Epoch 55
+Validation r2 = 0.707693
+Epoch 56
+Validation r2 = 0.718460
+Epoch 57
+Validation r2 = 0.713656
+Epoch 58
+Validation r2 = 0.729299
+Epoch 59
+Validation r2 = 0.726517
+Epoch 60
+Validation r2 = 0.725203
+Epoch 61
+Validation r2 = 0.718902
+Epoch 62
+Validation r2 = 0.719054
+Epoch 63
+Validation r2 = 0.702404
+Epoch 64
+Validation r2 = 0.715557
+Epoch 65
+Validation r2 = 0.729711
+Epoch 66
+Validation r2 = 0.715766
+Epoch 67
+Validation r2 = 0.709975
+Epoch 68
+Validation r2 = 0.711268
+Epoch 69
+Validation r2 = 0.696190
+Epoch 70
+Validation r2 = 0.718498
+Epoch 71
+Validation r2 = 0.719446
+Epoch 72
+Validation r2 = 0.717778
+Epoch 73
+Validation r2 = 0.707982
+Epoch 74
+Validation r2 = 0.717630
+Epoch 75
+Validation r2 = 0.717620
+Epoch 76
+Validation r2 = 0.715369
+Epoch 77
+Validation r2 = 0.702600
+Epoch 78
+Validation r2 = 0.703670
+Epoch 79
+Validation r2 = 0.711098
+Epoch 80
+Validation r2 = 0.708232
+Epoch 81
+Validation r2 = 0.704442
+Epoch 82
+Validation r2 = 0.687958
+Epoch 83
+Validation r2 = 0.699782
+Epoch 84
+Validation r2 = 0.697498
+Epoch 85
+Validation r2 = 0.687324
+Epoch 86
+Validation r2 = 0.698463
+Epoch 87
+Validation r2 = 0.694275
+Epoch 88
+Validation r2 = 0.691844
+Epoch 89
+Validation r2 = 0.700371
+Epoch 90
+Validation r2 = 0.694088
+Epoch 91
+Validation r2 = 0.698425
+Epoch 92
+Validation r2 = 0.702856
+Epoch 93
+Validation r2 = 0.696105
+Epoch 94
+Validation r2 = 0.692529
+Epoch 95
+Validation r2 = 0.695935
+Epoch 96
+Validation r2 = 0.688173
+Epoch 97
+Validation r2 = 0.697616
+Epoch 98
+Validation r2 = 0.691453
+Epoch 99
+Validation r2 = 0.683216
+Model 2 best validation r2 = 0.734482 on epoch 50
+Moving model to cuda
+Model 2 test mae = 0.375215
+Model 2 test mse = 0.262118
+Model 2 test r2 = 0.674230
+Ensemble test mae = 0.370460
+Ensemble test mse = 0.254953
+Ensemble test r2 = 0.683136
+1-fold cross validation
+Seed 0 ==> test r2 = 0.683136
+Overall test r2 = 0.683136 +/- 0.000000
