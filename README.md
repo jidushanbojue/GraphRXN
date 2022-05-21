@@ -5,4 +5,4 @@ Thanks a lot for their sharing.
 
 
 ### **Model architecture of GraphRXN**
-![Figure1](https://github.com/jidushanbojue/GraphRXN/tree/master/picture/Figure1 "Figure 1")
+![Figure1](https://github.com/jidushanbojue/GraphRXN/tree/master/picture/Figure1.png "Figure 1")
