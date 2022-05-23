@@ -6,7 +6,7 @@ Thanks a lot for their sharing.
 
 ### **Model architecture of GraphRXN**
 
-<img alt="network" height="10" src="https://github.com/jidushanbojue/GraphRXN/tree/master/picture/Figure1_ps.png" title="network" width="15"/>
+<img alt="network" height="10" src="https://github.com/jidushanbojue/GraphRXN/tree/master/picture/Figure1_1_ps.png" title="network" width="15"/>
 
 ### **General workflow of HTE process**
 ![Figure2](https://github.com/jidushanbojue/GraphRXN/tree/master/picture/Figure2.png "Figure2")
