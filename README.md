@@ -10,3 +10,6 @@ Thanks a lot for their sharing.
 
 ### **General workflow of HTE process**
 ![Figure2](https://github.com/jidushanbojue/GraphRXN/tree/master/picture/Figure2.png "Figure2")
+
+### **The Subgraph of the reaction knowledge graph network**
+![network](https://github.com/jidushanbojue/YaSAScore/blob/master/picture/network_ps.png "network")
