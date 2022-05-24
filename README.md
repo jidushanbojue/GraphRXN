@@ -6,10 +6,19 @@ Thanks a lot for their sharing.
 
 ### **Model architecture of GraphRXN**
 
-![Figure1](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure4.png "Figure1")
+![Figure1](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure1.png "Figure1")
 
 ### **General workflow of HTE process**
-![Figure2](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure1_2_ps.png "Figure2")
+![Figure2](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure2.png "Figure2")
 
-### **The Subgraph of the reaction knowledge graph network**
-![network](https://github.com/jidushanbojue/YaSAScore/blob/master/picture/network_ps.png "network")
+### **Reaction scheme and substrate scope**
+![Figure3](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure3.png "Figure3")
+
+### **Distribution of Ratio(UV), where A represents amine, and B represents bromide**
+![Figure4](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure4.png "Figure4")
+
+### **The scatter plots of GraphRXN on the entire dataset**
+![Figure5](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure5.png "Figure5")
+
+
+
