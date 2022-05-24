@@ -4,21 +4,27 @@ The code was built based on CMPNN (https://github.com/SY575/CMPNN), DeepReac (ht
 Thanks a lot for their sharing.
 
 
-### **<center>Model architecture of GraphRXN</center>**
+### **Figure 1. Model architecture of GraphRXN</center>**
 
 ![Figure1](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure1.png "Figure1")
 
-### **General workflow of HTE process**
+### **Figure 2. General workflow of HTE process**
 ![Figure2](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure2.png "Figure2")
 
-### **Reaction scheme and substrate scope**
+### **Figure 3. Reaction scheme and substrate scope**
 ![Figure3](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure3.png "Figure3")
 
-### **Distribution of Ratio(UV), where A represents amine, and B represents bromide**
+### **Figure 4. Distribution of Ratio(UV), where A represents amine, and B represents bromide**
 ![Figure4](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure4.png "Figure4")
 
-### **The scatter plots of GraphRXN on the entire dataset**
+### **Figure 5. The scatter plots of GraphRXN on the entire dataset**
 ![Figure5](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure5.png "Figure5")
 
+### **Model Performance of three public datasets over ten-fold CV on test set**
+
+Dataset | Methods | R2 | MAE | RMSE
+:---: | :---: | :---: | :---: | :---:
+Dataset1 | GraphRXN-concat | 0.951 | 4.30 | 5.98
+Dataset1 | GraphRXN-sum | 0.937 | 4.85 | 6.80
 
 
