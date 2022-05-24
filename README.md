@@ -6,10 +6,10 @@ Thanks a lot for their sharing.
 
 ### **Model architecture of GraphRXN**
 
-![Figure1](https://github.com/jidushanbojue/GraphRXN/tree/master/picture/Figure1_2_ps.png "Figure1")
+![Figure1](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure4.png "Figure1")
 
 ### **General workflow of HTE process**
-![Figure2](https://github.com/jidushanbojue/GraphRXN/tree/master/picture/Figure2.png "Figure2")
+![Figure2](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure1_2_ps.png "Figure2")
 
 ### **The Subgraph of the reaction knowledge graph network**
 ![network](https://github.com/jidushanbojue/YaSAScore/blob/master/picture/network_ps.png "network")
