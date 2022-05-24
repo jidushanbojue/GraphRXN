@@ -4,7 +4,7 @@ The code was built based on CMPNN (https://github.com/SY575/CMPNN), DeepReac (ht
 Thanks a lot for their sharing.
 
 
-### **Model architecture of GraphRXN**
+### **<center>Model architecture of GraphRXN</center>**
 
 ![Figure1](https://github.com/jidushanbojue/GraphRXN/blob/master/picture/Figure1.png "Figure1")
 
