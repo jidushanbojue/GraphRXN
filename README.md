@@ -26,5 +26,8 @@ Dataset | Methods | R2 | MAE | RMSE
 :---: | :---: | :---: | :---: | :---:
 Dataset1 | GraphRXN-concat | 0.951 | 4.30 | 5.98
 Dataset1 | GraphRXN-sum | 0.937 | 4.85 | 6.80
+Dataset1 | Yield-BERT | 0.951 | 4.00 | 6.03
+Dataset1  | DeepReac+ | 0.922 | 5.25 | 7.54
+
 
 
