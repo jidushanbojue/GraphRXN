@@ -44,7 +44,22 @@ Entire | 1558 | GraphRXN-concat | 0.713 | 0.06 | 0.09
 Entire | 1558 | GraphRXN-sum | 0.704 | 0.06 | 0.09
 Entire | 1558 | Yield-BERT | 0.645 | 0.10 | 0.07
 Entire | 1558 | DeepReac+ | 0.610 | 0.07 | 0.10
-
+G1 | 317 | GraphRXN-concat | 0.661 | 0.08 | 0.11
+G1 | 317 | GraphRXN-sum | 0.462 | 0.11 | 0.14
+G1 | 317 | Yield-BERT | 0.718 | 0.07 | 0.10
+G1 | 317 | DeepReac+ | 0.551 | 0.09 | 0.13
+G2 | 419 | GraphRXN-concat | 0.629 | 0.05 | 0.07
+G2 | 419 | GraphRXN-sum | 0.592 | 0.06 | 0.07
+G2 | 419 | Yield-BERT | 0.512 | 0.06 | 0.08
+G2 | 419 | DeepReac+ | 0.528 | 0.06 | 0.08
+G3 | 401 | GraphRXN-concat | 0.802 | 0.06 | 0.08
+G3 | 401 | GraphRXN-sum | 0.775 | 0.06 | 0.08
+G3 | 401 | Yield-BERT | 0.785 | 0.06 | 0.08
+G3 | 401 | DeepReac+ | 0.745 | 0.07 | 0.09
+G4 | 421 | GraphRXN-concat | 0.459 | 0.08 | 0.12
+G4 | 421 | GraphRXN-sum | 0.419 | 0.09 | 0.12
+G4 | 421 | Yield-BERT | 0.503 | 0.08 | 0.11
+G4 | 421 | DeepReac+ | 0.23 | 0.10 | 0.14
 
 
 
