@@ -37,6 +37,15 @@ Dataset3 | GraphRXN-sum | 0.881 | 0.18 | 0.24
 Dataset3 | Yield-BERT | 0.886 | 0.16 | 0.24
 Dataset3 | DeepReac+ | 0.853 | 0.18 | 0.25
 
+### **Model performance of in-house dataset over 5-fold CV on test set**
+Groupe | Size | methods | R2 | MAE | RMSE
+:---: | :---: | :---: | :---: | :---: | :---:
+Entire | 1558 | GraphRXN-concat | 0.713 | 0.06 | 0.09
+       |      | GraphRXN-sum | 0.704 | 0.06 | 0.09
+       |      | Yield-BERT | 0.645 | 0.10 | 0.07
+       |      | DeepReac+ | 0.610 | 0.07 | 0.10
+
+
 
 
 
