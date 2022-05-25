@@ -1,4 +1,4 @@
-name: cmpnn
+name: GraphRXN
 channels:
   - https://mirrors.sjtug.sjtu.edu.cn/anaconda/pkgs/free
   - https://mirrors.sjtug.sjtu.edu.cn/anaconda/pkgs/main
@@ -102,4 +102,4 @@ dependencies:
     - tensorboardx==2.1
     - threadpoolctl==2.1.0
     - tqdm==4.59.0
-prefix: /home/cadd/anaconda3/envs/cmpnn
+prefix: /home/cadd/anaconda3/envs/GraphRXN

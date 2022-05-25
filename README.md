@@ -64,8 +64,8 @@ G4 | 421 | DeepReac+ | 0.23 | 0.10 | 0.14
 ## Quick start
 
 ### GraphRXN 
-    conda env create -f cmpnn.yaml ### Create GraphRXN env
-    conda activate cmpnn
+    conda env create -f GraphRXN.yaml ### Create GraphRXN env
+    conda activate GraphRXN
     python reaction_train.py  --data_path data_scaler/Buchward-Hartwig/random_split/FullCV_01_train_temp_scaler.csv
                               --separate_test_path data_scaler/Buchward-Hartwig/random_split/FullCV_01_test_temp_scaler.csv
                               --dataset_type regression 
