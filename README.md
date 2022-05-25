@@ -61,6 +61,38 @@ G4 | 421 | GraphRXN-sum | 0.419 | 0.09 | 0.12
 G4 | 421 | Yield-BERT | 0.503 | 0.08 | 0.11
 G4 | 421 | DeepReac+ | 0.23 | 0.10 | 0.14
 
+## Quick start
+
+### GraphRXN 
+    conda env create -f cmpnn.yaml ### Create GraphRXN env
+    conda activate cmpnn
+    python reaction_train.py  --data_path data_scaler/Buchward-Hartwig/random_split/FullCV_01_train_temp_scaler.csv
+                              --separate_test_path data_scaler/Buchward-Hartwig/random_split/FullCV_01_test_temp_scaler.csv
+                              --dataset_type regression 
+                              --num_folds 1 
+                              --gpu 0 
+                              --epochs 100 
+                              --batch_size 128 
+                              --save_dir ./result/Buchward/concat_01_temp
+                              --metric r2 
+                              --reaction_agg_method concat
+    Note: If choosing summation aggregation method, please specify --reaction_agg_method sum
+
+### DeepReac+ 
+    cd DeepReac
+    conda env create -f DeepReact.yaml ### Create DeepReac+ env
+    conda activate DeepReact
+    ### train and predict
+    python DeepReac_train.py -train data_scaler/Buchward-Hartwig/random_split/FullCV_01_train_temp_scaler.csv
+                             -test data_scaler/Buchward-Hartwig/random_split/FullCV_01_test_temp_scaler.csv
+                             -epochs 100
+                             -stats ./result_scaler/Buchward_01_test_stats.csv
+
+### Yield-BERT
+    
+    
+
+
 
 
 
