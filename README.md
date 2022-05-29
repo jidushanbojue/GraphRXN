@@ -92,7 +92,9 @@ G4 | 421 | DeepReac+ | 0.23 | 0.10 | 0.14
     cd Yield-BERT
     conda env create -f rxnyields.yaml ### create Yield-BERT env
     conda activate rxnyields
+
     cd yield-BERT_baseline
+
     ### For Dataset 1 (Buchwald) training
     python launch_buchwald_hartwig_training.py
     
