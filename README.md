@@ -103,7 +103,7 @@ G4 | 421 | DeepReac+ | 0.23 | 0.10 | 0.14
     python data3_training_10cv.py
     
     ### For in-house dataset training
-    python inhouse_data_transform.py*
+    python inhouse_data_transform.py
     
     
     
