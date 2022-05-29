@@ -89,6 +89,23 @@ G4 | 421 | DeepReac+ | 0.23 | 0.10 | 0.14
                              -stats ./result_scaler/Buchward_01_test_stats.csv
 
 ### Yield-BERT
+    cd Yield-BERT
+    conda env create -f rxnyields.yaml ### create Yield-BERT env
+    conda activate rxnyields
+    cd yield-BERT_baseline
+    ### For Dataset 1 (Buchwald) training
+    python launch_buchwald_hartwig_training.py
+    
+    ### For Dataset 2 (Suzuki) training
+    python lauch_suzuki_miyaura_training.py
+    
+    ### For Dataset 3 (Denmark) training
+    python data3_training_10cv.py
+    
+    ### For in-house dataset training
+    python inhouse_data_transform.py*
+    
+    
     
     
 
