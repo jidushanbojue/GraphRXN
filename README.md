@@ -1,5 +1,5 @@
 # GraphRXN
-Source code for our paper "	GraphRXN: A Novel Representation for Reaction Prediction".
+Source code for our paper "A deep learning framework for accurate reaction prediction and its application on high-throughput experimentation data".
 The code was built based on CMPNN (https://github.com/SY575/CMPNN), DeepReac (https://github.com/bm2-lab/DeepReac), YieldBert (https://github.com/bm2-lab/DeepReac).
 Thanks a lot for their sharing.
 
